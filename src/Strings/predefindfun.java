@@ -10,9 +10,10 @@ public class predefindfun {
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
         System.out.println(str.concat(gtr));
+        System.out.println(str.charAt(2));
 
 
     }
 }
 
-// indexOf() , length() , contans() , compareTo() ,  startsWith() , endsWith()  , toLowerCase() , toUpperCase() , comcat()
+// charAt() , indexOf() , length() , contans() , compareTo() ,  startsWith() , endsWith()  , toLowerCase() , toUpperCase() , comcat()
