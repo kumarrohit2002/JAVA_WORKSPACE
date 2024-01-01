@@ -62,6 +62,19 @@ public class linklistp {
             }
             System.out.println("\n");
         }
+        int getAtIdx(int position){
+            if(position<1 || position > size()){
+                System.out.print("Invalid index ");
+                return -1;  //for invaild index.....
+            }
+            Node temp=head;
+            int idx=1;
+            while(idx<position){
+                temp=temp.next;
+                idx++;
+            }
+            return temp.data;
+        }
         int size(){
             Node temp=head;
             int count=0;
@@ -91,5 +104,9 @@ public class linklistp {
         ll.display();
         System.out.println("head -> data = "+ll.head.data);
         System.out.println("tail -> data = "+ll.tail.data);
+        System.out.println("LinkList size is "+ll.size());
+
+        System.out.println(ll.getAtIdx(8));
+        System.out.println(ll.getAtIdx(5));
     }
 }
