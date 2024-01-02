@@ -56,11 +56,12 @@ public class linklistp {
 
         void display(){
             Node temp=head;
+//            System.out.print("head -> ");
             while(temp!=null){
-                System.out.print(temp.data+" ");
+                System.out.print(temp.data+" -> ");
                 temp=temp.next;
             }
-            System.out.println("\n");
+            System.out.println("null");
         }
         int getAtIdx(int position){
             if(position<1 || position > size()){
@@ -75,6 +76,21 @@ public class linklistp {
             }
             return temp.data;
         }
+
+//        void deleteAtIdx(int idx){
+//            if(idx==1){
+//                head=head.next;
+//                return;
+//            }
+//            Node temp=head;
+//            for(int i=1;i<idx-1;i++){
+//                temp=temp.next;
+//            }
+//
+//            temp.next=temp.next.next;
+//            return;
+//        }
+
         int size(){
             Node temp=head;
             int count=0;
@@ -108,5 +124,11 @@ public class linklistp {
 
         System.out.println(ll.getAtIdx(8));
         System.out.println(ll.getAtIdx(5));
+        ll.display();
+//        ll.deleteAtIdx(6);    //
+        ll.display();
+        System.out.println("head -> data = "+ll.head.data);
+        System.out.println("tail -> data = "+ll.tail.data);
+
     }
 }
