@@ -10,7 +10,6 @@ public class middleOfTheElement {
             this.next = null;
         }
     }
-
     public static class linklist {
         Node head = null;
         Node tail = null;
@@ -45,10 +44,9 @@ public class middleOfTheElement {
             }
             return slow.data;
         }
-
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
             linklist ll=new linklist();
             int size=sc.nextInt();
@@ -57,6 +55,5 @@ public class middleOfTheElement {
                 ll.insertAtEnd(data);
             }
         System.out.println(ll.middleEle());
-
     }
 }
