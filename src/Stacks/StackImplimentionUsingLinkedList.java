@@ -1,5 +1,4 @@
 package Stacks;
-
 import java.util.Scanner;
 
 public class StackImplimentionUsingLinkedList {
@@ -37,13 +36,27 @@ public class StackImplimentionUsingLinkedList {
             return top;
         }
 
-        void display(){
-            Node temp=head;
-            while(temp!=null){
-                System.out.print(temp.data+" ");
-                temp=temp.next;
+//        void display(){
+//            Node temp=head;
+//            while(temp!=null){
+//                System.out.print(temp.data+" ");
+//                temp=temp.next;
+//            }
+//            System.out.println();
+//        }
+        void displayr(Node temp){
+            if(temp==null){
+                return;
             }
+//            System.out.print(temp.data+" ");
+            displayr(temp.next);
+            System.out.print(temp.data+" ");
+        }
+
+        void display(){
+            displayr(head);
             System.out.println();
+            return;
         }
 
         boolean isempty(){
@@ -56,13 +69,16 @@ public class StackImplimentionUsingLinkedList {
             }
             return head.data;
         }
+        int size(){
+            return size;
+        }
 
 
     }
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        StackImplimentUsingArray.Stack st=new StackImplimentUsingArray.Stack();
+        Stack st=new Stack();
         for(int i=0;i<6;i++){
             int data=sc.nextInt();
             st.push(data);
