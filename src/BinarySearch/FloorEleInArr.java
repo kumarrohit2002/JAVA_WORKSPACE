@@ -5,7 +5,7 @@ public class FloorEleInArr {
         if(s>e){
             return arr[e];
         }else{
-            int m=(s+e)/2;
+            int m=s+(e-s)/2;
             if(target==arr[m]){
                 return arr[m];
             }
@@ -22,6 +22,6 @@ public class FloorEleInArr {
     public static void main(String[] args) {
         int[] arr={2,4,6,14,16,18};
         int n=arr.length;
-        System.out.println(binarySearch(arr,15,0,n));
+        System.out.println(binarySearch(arr,15,0,n-1));
     }
 }
