@@ -1,6 +1,7 @@
 package BinarySearch;
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 public class FirstAndLastOccerenceofkey {
+
     public static int orrence(int[] arr,int target,boolean firstOrrence){
         int s=0;
         int e=arr.length-1;
