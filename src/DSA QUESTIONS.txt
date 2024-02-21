@@ -1,0 +1,298 @@
+DSA Question
+1. ARRAYS	:-
+
+1) Find Union and Intersection of two sorted arrays
+ 2) Find the Number Occurring Odd Number of Times
+ 3) Find missing number from array of N-1 numbers in the range 1 to N
+4) Find the two non-repeating elements in an array of repeating elements
+ 5) Find the two numbers with odd occurrences in an unsorted array
+ 6) Find the next smallest palindrome   MUST
+ 7) Find the next higher permutation of the given number as an array of digits. If such a number doesn’t exist, return -1.  MUST
+8) Find pair of numbers with given sum X
+ 9) Find a,b,c such that a^2+b^2=c^2
+10) Find a triplet that sum to a given value
+ 11) Find four elements that sum to a given value
+12)  Find two repeating elements in a given array
+13)  Find the 3 elements such that a[i] < a[j] < a[k] and i < j < k
+14) Find the least positive number missing in an unsorted array.
+15)  Find the row with maximum number of 1s in a 2D row-wise sorted matrix
+16)  Find Maximum difference between two elements such that the larger element appears afte the smaller element in array
+17) Find two numbers such that their difference is minimum Find two elements whose sum is closest to zero
+ 18) Find the first subarray which has a zero sum in an array Find duplicates in O(n) time
+19) Find points in an array where left-sum==right-sum
+20)  Search a number in a row wise and column wise sorted 2D matrix
+21)  Print matrix spirally
+ 22) Measure amount of water in j’th glass of i’th row of glasses arranged like a pyramid Construct Product Array without division operator: each element = product of elements in arr[] except arr[i]
+23)  Shuffle a given array
+ 24) Sort elements by frequency
+25) Segregate Even and Odd numbers
+26)  Segregate 0s and 1s
+27) Sort an array of 0s, 1s and 2s
+28)  Move all zeroes to end of array
+29)  Rearrange positive and negative numbers alternatively
+30)  Given an array [a1b2c3d4] convert to [abcd1234]
+ 31) Maximum and minimum of an array using minimum number of comparison
+32) Given binary 2D Matrix, for all cells as 1, set corresponding row and column as 1 Turn an image by 90 degrees
+ 33) Inplace M x N size matrix transpose
+ 34) Intersection of n sets
+35) Print Matrix Diagonally
+36) Rotate an array by d elements
+37)  Largest Sum Contiguous Subarray
+ 38) Maximum Product Subarray
+ 39) Maximum Length Bitonic Subarray
+ 40) Find continous subarray with given sum
+ 41) Largest subarray with equal number of 0s and 1s
+ 42) Maximum subsequence sum such that no two elements are adjacent Find the majority element (with frequency > N/2)
+
+43) Find the maximum repeating number
+
+44) Count the number of Inversions in an array
+ 45) Find kth smallest element
+ 46) Stock Buy Sell to Maximize Profit
+ 47) Print the elements greater than all the elements to its right
+48) calculate the area of water collected by rain holded by bar graph/histogram
+
+
+
+
+
+
+2. LINKED LIST:-
+
+1)	Nth node from the end of a Linked list
+2)	 Reverse a Linked List
+3)	Recursive function to print reverse of a Linked List Check if a singly linked list is a Palindrome
+4)	 Delete Linked list
+5)	 Detect loop in a Linked List
+6)	 Detect and remove loop in a Linked List
+7)	Middle of a Linked list
+8)	Find the intersection point of two Linked Lists Intersection of two Sorted Linked Lists
+9)	Union and Intersection of two Linked Lists
+10)	Delete Alternate Nodes of a Linked List
+11)	Rotate a Linked List by K nodes
+12)	Reverse a Linked List in groups of given size K Reverse alternate K nodes in a Singly Linked List
+13)	Merge two sorted linked lists
+14)	Sort a linked list of 0s, 1s and 2s
+15)	Segregate even and odd nodes in a Linked List
+16)	Move vowels to end of Linked List maintaining the order
+17)	Alternating split of a given Singly Linked List
+18)	Find a triplet from three linked lists with sum equal to a given number
+19)	Add two numbers represented by linked lists
+20)	 Product of two numbers given in Linked List
+21)	 Pairwise swap elements of a given linked list
+22)	Swap Kth node from beginning with Kth node from end in a Linked List Delete N nodes after M nodes of a linked list
+23)	Swap odd and even nodes in a Linked List
+24)	 Merge a linked list into another linked list at alternate positions Merge Sort for Linked Lists
+25)	Flattening a Linked List
+26)	Copy a linked list with next and arbit pointer
+27)	Memory Efficient DLL using XOR Memory Efficient DLL
+
+
+
+
+
+
+
+
+
+
+
+3 .STACKS & QUEUES :-
+
+1)	Implement two stacks in one array
+2)	 Implement Stack using Queues
+3)	 Implement Queue using Two Stacks
+4)	 Implement stack with push(), pop(), getMin() [ each in O(1) time ] Design a stack with operations on middle element
+
+5)	Check for balanced parentheses in an expression
+6)	Expression Evaluation with operator priority and multiple braces Implement LRU Cache
+
+7)	 The Stock Span Problem
+8)	 Print the First Greater Element on the right side for each element Largest Rectangular Area in a Histogram
+
+9)	 Implement three stacks in one array
+10)	Find maximum element in every window of size K in an array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. STRINGS :-
+
+1)	Print reverse of a string using recursion
+2)	 Print all permutations of a string
+3)	Given a string find its first non-repeating character
+
+4)	Reverse words in a given string
+5)	Print all the duplicates in the input string
+6)	Move all even-index positioned chars to end of string maintaining even-odd order
+
+7)	Find Lexicographic rank of a string
+8)	Run Length Encoding
+9)	 Implement atoi function
+
+10)	 Print the first unique character in a string
+11)	 Write strcmp function and returns -1 if s1 < s2, 0 if s1 = s2, else returns 1 Remove from string s1, all the characters that are present in string s2. Check whether two strings are anagram of each other
+
+12)	Length of the longest substring without repeating characters
+13)	Find the smallest window in a string containing all characters of another string
+
+14)	Recursively remove all adjacent duplicates Evaluate a regular expression a*b?c with aaaabcc String Matching - KMP Algorithm
+
+
+
+
+5. TREES:-
+
+1)	Size of a Tree
+2)	 Height of a Tree
+3)	 Diameter of a Binary Tree Maximum width of a binary tree Check if Two Trees are Identical Tree Traversal
+
+4)	Populate Inorder Successor for all nodes Level Order Traversal
+5)	Connect nodes at same level
+6)	Level Order Traversal in Spiral Form Reverse Level Order Traversal
+
+7)	Vertical Sum in a given Binary Tree
+8)	 Difference between sums of odd level and even level nodes of a Binary Tree
+9)	Check if all leaves are in same level or not
+10)	Delete a tree
+11)	Zig-Zag Traversal of Tree
+12)	 Boundary Traversal of binary tree
+13)	 Count leaf nodes in a binary tree
+14)	 Lowest Common Ancestor in a BINARY Tree
+15)	Print nodes at distance K from root
+16)	Print Left View of a Binary Tree
+17)	 In a binary tree, if parent is 0, then left child is 0 and right child is 1. if parent is 1, then left c kth node value which is present at Nth level
+
+18)	Convert the given Binary tree to its Double tree
+19)	Find the node with minimum value in a BST
+20)	 Add all greater values to every node in a given BST Inorder Successor in BST
+21)	 Lowest Common Ancestor in a BST
+22)	Check if two trees are Isomorphic
+23)	Check if a given binary tree is SumTree or not Check if given Binary Tree is BST or not
+24)	 Check if Binary Tree is Balanced or not
+25)	 Check if given BT is Complete Binary Tree or not Check if given Binary Tree can be Folded or not Convert Tree to its Mirror Tree
+
+26)	Convert a given tree to its Sum Tree
+27)	 Check for children sum property
+28)	Convert a BT to a tree that holds children sum property
+
+29)	Convert a BST to a Binary Tree such that sum of all greater keys is added to every key Find k-th smallest element in BST
+30)	Find pair of numbers in a BST adding upto K
+
+31)	Two nodes of a BST are swapped, correct the BST
+32)	Print BST keys in the given range
+33)	Remove BST keys outside the given range
+34)	Remove all nodes in a BST which lie on a path having sum less than k
+
+35)	Print all root-to-leaf Paths
+36)	 Root to leaf path sum equal to a given number
+37)	 Find the maximum sum leaf to root path in a Binary Tree Print Ancestors of a given node
+38)	 Print ancestors of a given binary tree node without recursion
+
+39)	BST to DLL
+40)	 Sorted DLL to Balanced BST
+41)	Sorted Array to Balanced BST
+42)	Sorted Linked List to Balanced BST Merge Two Balanced Binary Search Trees
+
+43)	Serialisation - storing a BT in a file
+44)	 Construct Tree from given Inorder and Preorder traversals
+45)	Construct Special Binary Tree from given Inorder traversal
+46)	Construct a special tree from given preorder traversal
+47)	Construct Full Binary Tree from given preorder and postorder traversals Construct Tree from Ancestor Matrix
+48)	Construct Ancestor Matrix from Tree
+
+49)	Find the largest BST subtree in a given Binary Tree if entire subtree has to be taken
+50)	Find the largest BST subtree in a given Binary Tree if part of subtree can also be taken
+51)	Find the maximum weight node in a tree if each node is the sum of the weights all the node
+
+52)	Morris Inorder Traversal - Threaded binary Trees Ternary Search Tree
+
+53)	TRIE
+
+
+
+
+
+6. Graphs	:-
+
+1)	Graph representations
+2)	 Depth First Traversal for a Graph
+3)	 Breadth First Traversal for a Graph
+4)	Detect Cycle in a Directed Graph
+5)	 Find if there is a path between two vertices in a directed graph Find number of connected components in an undirected graph Bellman Ford Algorithm
+6)	Floyd Warshall Algorithm
+7)	 Kruskal's MST
+8)	 Dijiktra's Shortest Path Algorithm
+
+9)	 Union Find
+10)	 Union Find by rank
+11)	 Topological Sorting for DAG
+12)	Detect cycle in an undirected graph
+
+13)	Strongly Connected Components Shortest Path in Directed Acyclic Graph Maximum Bipartite Matching
+
+14)	Check if Bipartite Graph
+15)	Stable Marriage Problem
+16)	 Longest Path in a Directed Acyclic Graph
+17)	Find maximum number of edge disjoint paths between two vertices Graph Coloring
+18)	Travelling Salesman Problem
+
+
+
+
+
+
+
+
+
+
+7. DP :-
+
+
+1)	Overlapping Subproblems Property
+2)	 Optimal Substructure Property
+3)	 0-1 Knapsack Problem
+4)	Min Cost Path
+5)	Minimum number of jumps to reach end Maximum size square sub matrix with all 1s Matrix Chain Multiplication
+6)	Coin Change
+7)	 Longest Common Substring
+8)	Longest Increasing Subsequence
+9)	Maximum Sum Increasing Subsequence
+
+10)	Box Stacking Problem
+11)	Rod Cutting
+12)	Minimum insertions to form a palindrome
+13)	Longest Palindromic Substring
+14)	Longest Palindromic Subsequence
+15)	Palindrome Partitioning
+16)	Dice Throw
+17)	 Maximum sum rectangle in a 2D matrix
+
+18)	Largest Independent Set Problem
+19)	Egg Dropping Puzzle
+20)	Optimal BST
+21)	Find if a string is interleaved of two other strings
+22)	Optimimum Strategy to maximise coins to collect from either ends
+23)	Check if a given number is a power of 2
+24)	Reverse bits of a number
+25)	Count set bits in an integer
+26)	Count numer of set its to be flipped to convert A to B Rotate bits of an integer
+27)	Compute the absolute value (abs) without branching Turn off the rightmost set bit
+28)	 Add two numbers without using arithmetic operators Position of the right most set bit
+29)	Swap every consecutive odd and even positioned bit in a number Find the position of the only set bit
+30)	Perform nibble wise swap in a byte of data
