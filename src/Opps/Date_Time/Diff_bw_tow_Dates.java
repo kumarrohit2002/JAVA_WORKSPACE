@@ -23,6 +23,7 @@ public class Diff_bw_tow_Dates {
         long years= ChronoUnit.YEARS.between(date1,date2);
         long days= ChronoUnit.DAYS.between(date1,date2);
         long months= ChronoUnit.MONTHS.between(date1,date2);
+        long Weeks= ChronoUnit.WEEKS.between(date1,date2);
 
 
 
@@ -30,6 +31,7 @@ public class Diff_bw_tow_Dates {
         System.out.println("Total Years: "+years);
         System.out.println("Total Days: "+days);
         System.out.println("Total Months: "+months);
+        System.out.println("Total Weeks: "+Weeks);
 
 
     }
