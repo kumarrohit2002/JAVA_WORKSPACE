@@ -19,7 +19,6 @@ public class AddDaysInDate {
         String ad1=f.format(ad);
 
         System.out.println("Added Date is "+ad1);
-
         // Close the scanner
         sc.close();
 
